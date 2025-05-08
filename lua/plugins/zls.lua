@@ -6,7 +6,7 @@ return {
     servers = {
       zls = {
         mason = false,
-        cmd = { vim.fn.expand("$HOME/github/zls/zig-out/bin/zls") },
+        cmd = { vim.fn.expand("$HOME/.zvm/bin/zls") },
         filetypes = { "zig", "zir" },
       },
     },

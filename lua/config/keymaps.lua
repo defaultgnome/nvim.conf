@@ -7,3 +7,5 @@ vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>", { de
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv", { desc = "Move selection down one line" })
 vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv", { desc = "Move selection up one line" })
+
+vim.keymap.set("n", "gcd", ":g/^\\s*\\/\\//d<CR>", { desc = "Delete all \\\\ comments in file" })
